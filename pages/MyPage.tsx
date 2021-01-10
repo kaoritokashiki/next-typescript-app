@@ -1,6 +1,6 @@
 import React from 'react';
 
-const MyPage = () => {
+const MyPage: React.FC = () => {
     return (
         <h1>This is my page</h1>
     )

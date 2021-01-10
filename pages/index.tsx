@@ -2,7 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import MyPage from './MyPage';
 
-export default function Home() {
+const Home: React.FC = () => {
   return (
     <div className={styles.container}>
       <Head>
@@ -33,3 +33,5 @@ export default function Home() {
     </div>
   )
 }
+
+export default Home;
