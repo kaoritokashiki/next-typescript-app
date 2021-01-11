@@ -1,7 +1,7 @@
 import React from 'react';
 // import NavBar from './NavBar'
 
-const Home: React.FC = () => {
+const Top: React.FC = () => {
     return (
         <>
             {/* <NavBar /> */}
@@ -10,4 +10,4 @@ const Home: React.FC = () => {
     )
 }
 
-export default Home;
+export default Top;
