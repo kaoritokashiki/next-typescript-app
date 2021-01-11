@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import MyPage from './MyPage';
+import Header from '../src/components/Header';
+import Footer from '../src/components/Footer';
 
 export default function Home() {
   return (
@@ -15,6 +17,8 @@ export default function Home() {
           Hi
         </h1>
         <MyPage />
+        <Header />
+        <Footer />
 
         <div className={styles.grid}>
         </div>
